@@ -2,16 +2,13 @@ package global.goit;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PhoneFileReader {
     public void printPhone() {
-        String file = "C:\\homeworkspacegoit\\PhoneReader\\src\\global\\goit\\files\\file.txt";
+        String file = "src/global/goit/files/file.txt";
 
         try (FileReader is = new FileReader(file)) {
             Scanner scanner = new Scanner(is);
